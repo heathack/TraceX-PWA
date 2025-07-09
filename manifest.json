@@ -1,0 +1,13 @@
+{
+  "short_name": "TraceX",
+  "name": "TraceX Call Trace Engine",
+  "icons": [{
+    "src": "icon-192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2f3ba2"
+}
