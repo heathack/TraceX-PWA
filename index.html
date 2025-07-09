@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TraceX</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body { font-family: sans-serif; padding:1em; background:#f7f7f7; }
+    input, button { font-size:1em; padding:.5em; margin:.5em 0; width:100%; }
+    .card { background:#fff; padding:1em; margin-top:1em; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,.1); }
+  </style>
+</head>
+<body>
+  <h1>TraceX</h1>
+  <p>Enter a phone number to trace (NumVerify + GeoIP + Breach check)</p>
+  <input id="number" type="tel" placeholder="+441632960961">
+  <button id="traceBtn">Trace Number</button>
+  <div id="result" class="card" style="display:none;"></div>
+  <script src="app.js"></script>
+</body>
+</html>
